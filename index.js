@@ -18,6 +18,7 @@ const urlService = require('./core/frontend/services/url');
 // This is what listen gets called on, it needs to be a full Express App
 const ghostApp = express('ghost');
 
+// test push
 // Use the request handler at the top level
 // @TODO: decide if this should be here or in parent App - should it come after request id mw?
 ghostApp.use(sentry.requestHandler);
